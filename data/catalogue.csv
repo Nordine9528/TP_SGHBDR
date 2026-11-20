@@ -1,0 +1,13 @@
+No_Fabricants,Nom_Fabricant,Telephone,Email,No_Pays,Nom_Pays,Climat,Continent,No_Produits,Nom_Produit,Prix_Unitaire,Couleur,No_Type,Nom_Type,Categorie
+1,Kyoto Ceramics Studio,+81 75 555 0101,contact@kyoto-ceramics.example.com,1,Japon,Tempéré,Asie,1,Bol chawan raku,45.0,Noir,1,Céramique,Vaisselle et décoration
+1,Kyoto Ceramics Studio,+81 75 555 0101,contact@kyoto-ceramics.example.com,1,Japon,Tempéré,Asie,2,Théière en grès,62.0,Gris,1,Céramique,Vaisselle et décoration
+2,Uji Tea Garden,+81 774 55 0102,info@uji-tea.example.com,1,Japon,Tempéré,Asie,3,Thé matcha cérémonie 100 g,28.5,Vert,2,Thé,Alimentaire
+2,Uji Tea Garden,+81 774 55 0102,info@uji-tea.example.com,1,Japon,Tempéré,Asie,4,Thé sencha 100 g,18.0,Vert,2,Thé,Alimentaire
+3,Seoul Hanji Atelier,+82 2 555 0103,hello@seoul-hanji.example.com,2,Corée du Sud,Continental,Asie,9,Carnet en papier hanji,15.0,Écru,5,Papier,Papeterie
+4,Hanoi Silk House,+84 24 555 0104,sales@hanoi-silk.example.com,3,Vietnam,Tropical,Asie,5,Écharpe en soie,55.0,Bleu,3,Textile,Habillement et maison
+5,Bat Trang Pottery,+84 24 555 0105,order@battrang-pottery.example.com,3,Vietnam,Tropical,Asie,10,Vase en céramique émaillée,39.0,Bleu,1,Céramique,Vaisselle et décoration
+5,Bat Trang Pottery,+84 24 555 0105,order@battrang-pottery.example.com,3,Vietnam,Tropical,Asie,2,Théière en grès,62.0,Gris,1,Céramique,Vaisselle et décoration
+6,Chiang Mai Wood & Bamboo,+66 53 555 0106,info@cm-woodbamboo.example.com,4,Thaïlande,Tropical,Asie,7,Plateau en teck,48.0,Marron,4,Bois et bambou,Décoration
+6,Chiang Mai Wood & Bamboo,+66 53 555 0106,info@cm-woodbamboo.example.com,4,Thaïlande,Tropical,Asie,8,Panier en bambou tressé,22.0,Naturel,4,Bois et bambou,Décoration
+7,Jaipur Textile Works,+91 141 555 0107,export@jaipur-textile.example.com,5,Inde,Mousson,Asie,6,Nappe en coton imprimé,34.0,Rouge,3,Textile,Habillement et maison
+7,Jaipur Textile Works,+91 141 555 0107,export@jaipur-textile.example.com,5,Inde,Mousson,Asie,5,Écharpe en soie,55.0,Bleu,3,Textile,Habillement et maison

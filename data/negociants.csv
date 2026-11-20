@@ -1,0 +1,8 @@
+No_Negociant,Nom,Prenom,Pct_CA,No_Pays,Nom_Pays,Climat,Continent,No_Rue,Texte_Rue,Numero_Batiment,Ville,Pays_Adresse,Statut,Date_Prise_Poste,Salaire_Minimum,Date_Debut_Contrat,Date_Fin_Contrat,No_HistoSalaire,Date_Application,Salaire_Histo
+1,Tanaka,Hiroshi,30.0,1,Japon,Tempéré,Asie,1,Chuo-dori,12,Tokyo,Japon,Salarie,2022-03-01,2400.0,,,1,2022-03-01,2300.0
+1,Tanaka,Hiroshi,30.0,1,Japon,Tempéré,Asie,1,Chuo-dori,12,Tokyo,Japon,Salarie,2022-03-01,2400.0,,,2,2024-01-01,2400.0
+2,Kim,Min-jun,15.0,2,Corée du Sud,Continental,Asie,2,Gangnam-daero,45,Séoul,Corée du Sud,Contractuel,,,2026-01-01,2026-12-31,,,
+3,Nguyen,Lan,25.0,3,Vietnam,Tropical,Asie,3,Pho Hue,8,Hanoï,Vietnam,Salarie,2023-09-15,2100.0,,,3,2023-09-15,2000.0
+3,Nguyen,Lan,25.0,3,Vietnam,Tropical,Asie,3,Pho Hue,8,Hanoï,Vietnam,Salarie,2023-09-15,2100.0,,,4,2025-01-01,2100.0
+4,Prasert,Somchai,10.0,4,Thaïlande,Tropical,Asie,4,Sukhumvit Road,101,Bangkok,Thaïlande,Contractuel,,,2026-03-01,2026-08-31,,,
+5,Sharma,Priya,20.0,5,Inde,Mousson,Asie,5,MI Road,27,Jaipur,Inde,Salarie,2024-01-08,1900.0,,,5,2024-01-08,1900.0
