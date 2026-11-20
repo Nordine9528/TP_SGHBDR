@@ -1,5 +1,5 @@
 import sqlite3
-import Database_Table as db_tbl
+import Database_Orchestration.Database_Table as db_tbl
 
 def db_create_table_1er_Niveau(cursor):
     db_tbl.create_pays(cursor)

@@ -1,6 +1,6 @@
 import csv
 
-DOSSIER = "/Users/nordinetsouli/PycharmProjects/WelcomeScreen/TP_SGHBDR_NTSO_YMOU/data"
+DOSSIER = "data"
 
 
 def lire_csv(nom_fichier):
