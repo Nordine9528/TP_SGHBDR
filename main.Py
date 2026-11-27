@@ -1,6 +1,7 @@
 import sqlite3
 import Database_Orchestration.Database_Creation as db_crt
 import Database_Orchestration.Database_insertion as db_insert
+import Database_transactions as db_trsct
 
 
 def creation_tables(cursor):
@@ -35,3 +36,10 @@ cursor.execute("PRAGMA foreign_keys = ON")
 
 creation_tables(cursor)
 db_insert.charger_donnees(cursor)
+
+choix = input("Voulez vous enregistrer une commande dans la Base de donnee ? [y/n]: ")
+choix = choix.lower()
+if choix == "y" or choix == "yes":
+    No_nego, No_fab, Date_cmd, Date_limite_livraison, liste_produits = db_trsct.ihm_bdd_description_commande(cursor)
+
+    db_trsct.passer_commande(cursor, No_nego, No_fab,Date_cmd,Date_limite_livraison,liste_produits)

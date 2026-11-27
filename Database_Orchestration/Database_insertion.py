@@ -63,7 +63,6 @@ def insert_produits(cursor):
 
 
 # Niveau 3
-
 def insert_salarie(cursor):
     for l in lire_csv("negociants.csv"):
         if l["Statut"] == "Salarie":
