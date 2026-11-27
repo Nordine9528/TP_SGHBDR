@@ -37,9 +37,30 @@ cursor.execute("PRAGMA foreign_keys = ON")
 creation_tables(cursor)
 db_insert.charger_donnees(cursor)
 
-choix = input("Voulez vous enregistrer une commande dans la Base de donnee ? [y/n]: ")
-choix = choix.lower()
-if choix == "y" or choix == "yes":
+choix = int(input("-----------------------------\n"
+              "Selectionner une action:\n"
+              "[1] Enregistrer une commande\n"
+              "[2] Chiffre d'affaire par mois\n"
+              "[3] Chiffre d'affaire par pays et par mois\n"
+              "[4] None\n"
+              "[5] None\n"
+              ))
+if choix == 1:
     No_nego, No_fab, Date_cmd, Date_limite_livraison, liste_produits = db_trsct.ihm_bdd_description_commande(cursor)
 
     db_trsct.passer_commande(cursor, No_nego, No_fab,Date_cmd,Date_limite_livraison,liste_produits)
+
+if choix == 2:
+    resultat = db_trsct.ca_par_mois(cursor)
+
+    print("CA par mois :")
+    for annee, mois, ca in resultat:
+        print(f"  {annee}-{mois:02d} : {ca:.2f} EUR")
+
+if choix == 3:
+    resultat = db_trsct.ca_par_pays_mois(cursor)
+
+    print("CA par pays et par mois :")
+    for pays, annee, mois, ca in resultat:
+        print(f"  {pays} {annee}-{mois:02d} : {ca:.2f} EUR")
+
