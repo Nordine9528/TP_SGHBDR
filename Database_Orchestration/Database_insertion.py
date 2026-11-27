@@ -139,7 +139,9 @@ def charger_donnees(cursor):
         # Niveau 4
         insert_historique_salarial(cursor)
         insert_concerne(cursor)
+        print("Je suis ici")
         cursor.execute("COMMIT")
     except Exception:
+        print("Je suis ici dans le exception")
         cursor.execute("ROLLBACK")
         raise
